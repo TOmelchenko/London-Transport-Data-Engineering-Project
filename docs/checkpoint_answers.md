@@ -28,7 +28,7 @@ Short answers are acceptable, but they should still be clear and complete.
 ### What is the business purpose of the London Transport Data Engineering Project?
 
 **Your answer:**
-[Write your answer here]
+The business purpose of this project to make an analytic in order to give answers for questions, on which business users are interested.
 
 ---
 
@@ -37,7 +37,7 @@ Short answers are acceptable, but they should still be clear and complete.
 ### Why are we using multiple raw source files instead of one clean table?
 
 **Your answer:**
-[Write your answer here]
+Because we are recieving data from different sources and in different formats. And the raw files contain tha data, that is also different from business perspective. So it's more convenient to save such data separately and than analyze.
 
 ---
 
@@ -46,7 +46,7 @@ Short answers are acceptable, but they should still be clear and complete.
 ### What is the difference between ETL and ELT in this project?
 
 **Your answer:**
-[Write your answer here]
+In ELT version the  transformations are being done on database level vs python on memory transformation for ETL. The ELT is more suitable when we have big amount of data.
 
 ---
 
@@ -55,7 +55,7 @@ Short answers are acceptable, but they should still be clear and complete.
 ### Why is it important to use your own public GitHub repository for this project?
 
 **Your answer:**
-[Write your answer here]
+Because it's a good example of a portfolio project, that can be used in future interview.
 
 ---
 
@@ -64,7 +64,7 @@ Short answers are acceptable, but they should still be clear and complete.
 ### Which raw files seem to be the most important for building the final reporting output on Day 1, and why?
 
 **Your answer:**
-[Write your answer here]
+The **journeys.json** contains fact data on which the whole analysis has been build. Other files are also important but they have lookup data. 
 
 ---
 
@@ -73,7 +73,7 @@ Short answers are acceptable, but they should still be clear and complete.
 ### What was the most important thing you learned from Day 1?
 
 **Your answer:**
-[Write your answer here]
+Actually the project is most the same as the previous one. It only contains more files as a source. I think some more complicated logic should be used for deduplication.
 
 ---
 

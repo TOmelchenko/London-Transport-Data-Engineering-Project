@@ -33,6 +33,7 @@ dedup_boroughs AS (
     FROM raw_boroughs
     WHERE borough_id IS NOT NULL
       AND TRIM(borough_id) <> ''
+      AND TRIM(borough_name) != ''
     ORDER BY borough_id
 ),
 dedup_zones AS (
