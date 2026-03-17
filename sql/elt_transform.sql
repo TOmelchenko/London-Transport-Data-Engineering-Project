@@ -96,4 +96,4 @@ WHERE rj.journey_id IS NOT NULL
   AND TRIM(rj.line_id) <> ''
   AND rj.passenger_count ~ '^[0-9]+$'
   AND rj.delay_minutes ~ '^[0-9]+$'
-  AND rj.journey_date ~ '^[0-9]{4}-[0-9]{2}-[0-9]{2}$';
+  AND REPLACE(rj.journey_date, '/', '-') ~ '^[0-9]{4}-[0-9]{2}-[0-9]{2}$';

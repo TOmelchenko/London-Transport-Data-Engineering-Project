@@ -74,6 +74,7 @@ The **journeys.json** contains fact data on which the whole analysis has been bu
 
 **Your answer:**
 Actually the project is most the same as the previous one. It only contains more files as a source. I think some more complicated logic should be used for deduplication.
+There was also the date type issue in **journeys.json**. For the **journey_id = 'J00151'** the  **"journey_date": "2026/02/14"**. So I updated the 88transform_elt.sql88
 
 ---
 

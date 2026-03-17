@@ -1,4 +1,4 @@
-pus
+SELECT COUNT(*) FROM transport_report_etl;
 
 SELECT * FROM transport_report_etl LIMIT 10;
 
